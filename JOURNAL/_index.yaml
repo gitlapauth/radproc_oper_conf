@@ -1,0 +1,14 @@
+---
+title: radproc Journal
+author: LAP
+documentclass: article
+geometry: a4paper,twoside,left=15mm,right=15mm,top=15mm,bottom=15mm
+header-includes: |
+  \usepackage{amsthm}
+  \usepackage{booktabs}
+  \usepackage{fontspec}
+  \usepackage{xgreek}
+  \usepackage{xltxtra}
+  \usepackage{xunicode}
+  \setmainfont[Scale=1.1]{Linux Libertine O}
+---
