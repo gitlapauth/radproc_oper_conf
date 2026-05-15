@@ -14,9 +14,9 @@ not all processing is done by this machine.
 
 ## TODO
 
-- [ ] add another HDD
-- [ ] create btrfs mirrors
-- [ ] install grub on both disks
+- [x] add another HDD
+- [x] create btrfs mirrors
+- [x] install grub on both disks
 - [ ] try to run BBand_LAP
     - [ ] install and describe dependencies
 
@@ -32,7 +32,11 @@ access to the data.
 - /media/sirena_lapdata_ro/:   Access to the repository of broadband data
 - /media/tracker_CHP1_ro/:     Access to log data of the tracker
 
+The root '/' and user storage '/home/ are on two separate partitions configured as
+Raid1 with btrfs filesystem.
 
+Both disk have grub installed in order to be able to boot even one of them is
+removed/fail.
 
 ## Software
 
@@ -44,11 +48,11 @@ The source code for some of the data processing is in:
 
 All data and processes are under user 'athan'.
 
-- ~/BBand_LAP:  Processing source code
-- ~/DATA:       Main local data storage
-- ~/LOGs:       Logs for the machine
-- ~/PANDOC:     This git repository
-- ~/ZHOST:      Helper folder for user data sync
+- ~/BBand_LAP: Processing source code
+- ~/DATA:      Main local data storage
+- ~/LOGs:      Logs for the machine
+- ~/PANDOC:    This git repository
+- ~/ZHOST:     Helper folder for user data sync
 
 
 ## Other
