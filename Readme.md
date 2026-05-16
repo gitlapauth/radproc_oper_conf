@@ -43,6 +43,11 @@ removed/fail.
 The source code for some of the data processing is in:
 [github.com/thanasisn/BBand_LAP](https://github.com/thanasisn/BBand_LAP)
 
+### Dependencies
+
+There is no list of explicit dependencies, required packages (mainly for R and some
+for python) are installed at the system level.
+
 
 ## Usage
 
